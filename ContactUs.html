@@ -14,13 +14,13 @@
         <div id="slider" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="image/pic1.jpg" class="w-100"/>
+                    <img src="image/pic1.jpg" class="w-100" alt="banner-image"/>
                 </div>
                 <div class="carousel-item active">
-                    <img src="image/pic1.jpg" class="w-100"/>
+                    <img src="image/pic1.jpg" class="w-100" alt="banner-image"/>
                 </div>
                 <div class="carousel-item active">
-                    <img src="image/pic1.jpg" class="w-100"/>
+                    <img src="image/pic1.jpg" class="w-100" alt="banner-image"/>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
@@ -31,8 +31,8 @@
             </button>
         </div>
         <div class="row">
-            <div class="col-sm-1"  >
-                <img src="image/logo.jpg"  width="100" height="100" style="position: absolute;" alt="Logo">
+            <div class="col-sm-1" class="position-absolute" >
+                <img src="image/logo.jpg"  width="100" height="100" alt="Logo">
             </div>
             <div class="col-sm-11" >
             <nav class="navbar navbar-expand-lg  navbar-dark bg-light">
@@ -55,23 +55,26 @@
             <div class="col-sm-4">
                 <div>
                     <label class="form-label">Full Name</label>
-                    <input type="text" class="form-control" name="txtName" value=""/>
+                    <input type="text" class="form-control" name="txtName" value="" placeholder="name"/>
                 </div>
                 <div>
                     <label class="form-label">Address</label>
-                    <textarea class="form-control" name="txtAddrress"></textarea>
+                    <textarea class="form-control" name="txtAddrress" placeholder="address"></textarea>
                 </div>
                 <div>
                     <label class="form-label">Email</label>
-                    <input type="email" class="form-control"  name="txtEmail" value=""/>
+                    <input type="email" class="form-control"  name="txtEmail" value="" placeholder="email"/>
                 </div>
                 <div>
                     <label class="form-label">Contact number</label>
-                    <input type="number" class="form-control"  name="txtNumber" value=""/>
+                    <input type="number" class="form-control"  name="txtNumber" value="" placeholder="number"/>
                 </div>
                 <div>
                     <label class="form-label">Message</label>
-                    <textarea class="form-control" name="txtMessage"></textarea>
+                    <textarea class="form-control" name="txtMessage" placeholder="message"></textarea>
+                </div>
+                <div>
+                    <label class="form-label"></label>
                 </div>
                 <div>
                     <button class="btn btn-outline-primary btn-md" type="button">Submit</button>
@@ -86,7 +89,11 @@
         </div>
             </div>
         </div>
-        
+       <div class="row">
+                                <div class="col-sm-12">
+                                    <input type="label" class="border-0" />
+                                </div>  
+                            </div>   
        <div class="row">
             <div class="col-sm-12">
                  <marquee behaviour="scroll" color="yellow"  direction="right" loop="-1" scrollamount="10">
